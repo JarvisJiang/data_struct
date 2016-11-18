@@ -1,0 +1,1 @@
+del /f /s /q *.ncb,*.dsw,*.opt,*.dsp,*.plg
