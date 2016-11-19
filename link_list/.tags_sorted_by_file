@@ -1,0 +1,18 @@
+T_LIST	list.c	/^typedef struct list_node T_LIST;$/;"	t	typeref:struct:list_node	file:
+data	list.c	/^	int data;$/;"	m	struct:list_node	file:
+list_alloc	list.c	/^T_LIST* list_alloc(void)$/;"	f
+list_data_pos	list.c	/^T_LIST* list_data_pos(T_LIST *head,int data)$/;"	f
+list_delete_end	list.c	/^void list_delete_end(T_LIST *head)$/;"	f
+list_destroy	list.c	/^void list_destroy(T_LIST *head)$/;"	f
+list_insert_end	list.c	/^T_LIST* list_insert_end(T_LIST *head,T_LIST *next)$/;"	f
+list_insert_pos	list.c	/^T_LIST* list_insert_pos(T_LIST *head,T_LIST *pos,T_LIST *target)$/;"	f
+list_node	list.c	/^struct list_node$/;"	s	file:
+main	list.c	/^void int main(int argc, char const *argv[])$/;"	f
+next	list.c	/^	struct list_node * next;$/;"	m	struct:list_node	typeref:struct:list_node::list_node	file:
+printf_list	list.c	/^void printf_list(T_LIST *head)$/;"	f
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
